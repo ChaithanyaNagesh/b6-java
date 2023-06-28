@@ -1,7 +1,9 @@
 pipeline{
-    agent any
+    agent {
+        label 'sshslave'
+    }
     tools {
-        maven 'm1'
+        maven 'maven-3.6.3'
     }
     stages {
 
