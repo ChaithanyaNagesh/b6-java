@@ -1,6 +1,6 @@
 pipeline{
     agent {
-        label 'sshslave'
+        label 'pwdslave'
     }
     tools {
         maven 'maven-3.6.3'
